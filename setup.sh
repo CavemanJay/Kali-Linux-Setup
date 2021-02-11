@@ -21,6 +21,9 @@ echo "W0Rlc2t0b3AgRW50cnldClZlcnNpb249MS4wCk5hbWU9RHdtIFNlc3Npb24KRXhlYz1kd20KSW
 mkdir -p $HOME/.config/picom
 cp $root/picom.conf $HOME/.config/picom
 
+mkdir -p $HOME/.dwm
+cp $root/dwm_autostart.sh $HOME/.dwm/autostart.sh
+
 git clone https://github.com/ryanoasis/nerd-fonts --depth 1 $baseDir/nerdfonts
 cd $baseDir/nerdfonts
 
