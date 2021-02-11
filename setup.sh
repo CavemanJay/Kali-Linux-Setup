@@ -12,4 +12,4 @@ git clone $gh/st.git $baseDir/st
 cd $baseDir/dwm && sudo make clean install
 cd $baseDir/st && sudo make clean install
 
-sudo echo "W0Rlc2t0b3AgRW50cnldClZlcnNpb249MS4wCk5hbWU9RHdtIFNlc3Npb24KRXhlYz1kd20KSWNvbj0KVHlwZT1BcHBsaWNhdGlvbgpEZXNrdG9wTmFtZXM9RFdNCg==" > /usr/share/xsessions/dwm.desktop
+echo "W0Rlc2t0b3AgRW50cnldClZlcnNpb249MS4wCk5hbWU9RHdtIFNlc3Npb24KRXhlYz1kd20KSWNvbj0KVHlwZT1BcHBsaWNhdGlvbgpEZXNrdG9wTmFtZXM9RFdNCg==" | base64 -d | sudo tee /usr/share/xsessions/dwm.desktop
